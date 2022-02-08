@@ -1,10 +1,234 @@
-body {
-  font-family: "Roboto", sans-serif;
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+/* ----- START HEADER ----- */
+.logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+
+  color: #2196f3;
+}
+.logo-studio-header {
+  color: #000000;
+}
+.nav-list-link {
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.33;
+  letter-spacing: 0.02em;
+
+  color: #212121;
+}
+.nav-list-link:hover,
+.nav-list-link:focus {
+  color: #2196f3;
+}
+
+.contact-mail {
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.33;
+  letter-spacing: 0.02em;
+
+  color: #757575;
+}
+.contact-mail:hover,
+.contact-mail:focus {
+  color: #2196f3;
+}
+.contact-tel {
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.33;
+  letter-spacing: 0.02em;
+
+  color: #757575;
+}
+.contact-tel:hover,
+.contact-tel:focus {
+  color: #2196f3;
+}
+/* ----- END HEADER ----- */
+
+/* ----- START HERO ----- */
+.hero {
+  background-color: #2f303a;
+}
+.hero-title {
+  font-family: Roboto, sans-serif;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.hero-btn-modal {
+  cursor: pointer;
+  background-color: #2196f3;
+  color: white;
+}
+.hero-btn-modal:focus,
+.hero-btn-modal:hover {
+  background-color: #188ce8;
+
+  color: white;
+}
+/* ----- END HERO ----- */
+
+/* ----- START BENEFITS ----- */
+.benefits-title {
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #212121;
+}
+.benefits-description {
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+/* ----- END BENEFITS ----- */
+
+/* ----- START WHAT ARE WE DOING ----- */
+.works-title {
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+/* ----- END WHAT ARE WE DOING ----- */
+
+/* ----- START OUR TEAM ----- */
+.team {
+  background-color: #f5f4fa;
+}
+.team-title {
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.team-list-item {
+  background-color: white;
+}
+.team-name {
+  font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1, 62;
+  line-height: 1.18;
+  text-align: center;
   letter-spacing: 0.03em;
+
+  color: #212121;
 }
-.logo {
-  font-family: "Raleway", sans-serif;
+.team-description {
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+/* ----- END OUR TEAM ----- */
+
+/* ----- START FOOTER ----- */
+.footer {
+  background-color: #2f303a;
+}
+
+.logo-studio-footer {
+  color: #ffffff;
+}
+.footer-contact-maps {
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  font-style: normal;
+
+  color: #ffffff;
+}
+.footer-contact-mail {
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-contact-tel {
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+/* ----- END FOOTER ----- */
+
+/* ====== !!START PORTFOLIO!! ====== */
+
+.portfolio-btn {
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+
+  background-color: #f5f4fa;
+  color: #212121;
+}
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+.portfolio-title {
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+.portfolio-description {
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+
+  color: #757575;
 }
