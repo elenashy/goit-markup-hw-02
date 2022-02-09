@@ -3,10 +3,22 @@
   --secondary-font-family: Raleway, sans-serif;
   --primary-text-color: #757575;
   --secondary-text-color: #212121;
+  --primary-hero-text-color: #ffffff;
   --accent-color: #2196f3;
+  --primary-background-color: #2f303a;
+  --secondary-background-color: #f5f4fa;
+  --team-list-background-color: #ffffff;
+  --text-btn-modal-color: #ffffff;
+  --primary-text-btn-color: #212121;
+  --hover-btn-modal-color: #188ce8;
+  --secondary-text-btn-color: #ffffff;
+  --primary-text-footer-color: rgba(255, 255, 255, 0.6);
+  --secondary-text-footer-color: #ffffff;
+  --logo-header-color: #000000;
 }
 body {
   font-family: var(--primary-font-family);
+  color: var(--primary-text-color);
 }
 .list {
   list-style: none;
@@ -27,7 +39,7 @@ body {
   color: var(--accent-color);
 }
 .logo-studio-header {
-  color: #000000;
+  color: var(--logo-header-color);
 }
 .nav-list-link {
   font-weight: 500;
@@ -43,26 +55,23 @@ body {
 }
 
 .contact-mail {
-  font-family: var(--primary-font-family);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.33;
   letter-spacing: 0.02em;
 
-  color: var(--primary-text-color);
+  color: inherit;
 }
 .contact-mail:hover,
 .contact-mail:focus {
   color: var(--accent-color);
 }
 .contact-tel {
-  font-family: var(--primary-font-family);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.33;
   letter-spacing: 0.02em;
-
-  color: var(--primary-text-color);
+  color: inherit;
 }
 .contact-tel:hover,
 .contact-tel:focus {
@@ -72,10 +81,9 @@ body {
 
 /* ----- START HERO ----- */
 .hero {
-  background-color: #2f303a;
+  background-color: var(--primary-background-color);
 }
 .hero-title {
-  font-family: var(--primary-font-family);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -83,24 +91,23 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 
-  color: #ffffff;
+  color: var(--primary-hero-text-color);
 }
 .hero-btn-modal {
   cursor: pointer;
   background-color: var(--accent-color);
-  color: #ffffff;
+  color: var(--text-btn-modal-color);
 }
 .hero-btn-modal:focus,
 .hero-btn-modal:hover {
-  background-color: #188ce8;
+  background-color: var(--hover-btn-modal-color);
 
-  color: #ffffff;
+  color: var(--text-btn-modal-color);
 }
 /* ----- END HERO ----- */
 
 /* ----- START BENEFITS ----- */
 .benefits-title {
-  font-family: var(--primary-font-family);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -110,18 +117,14 @@ body {
   color: var(--secondary-text-color);
 }
 .benefits-description {
-  font-family: var(--primary-font-family);
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-
-  color: var(--primary-text-color);
 }
 /* ----- END BENEFITS ----- */
 
 /* ----- START WHAT ARE WE DOING ----- */
 .works-title {
-  font-family: var(--primary-font-family);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -134,10 +137,9 @@ body {
 
 /* ----- START OUR TEAM ----- */
 .team {
-  background-color: #f5f4fa;
+  background-color: var(--secondary-background-color);
 }
 .team-title {
-  font-family: var(--primary-font-family);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -147,10 +149,9 @@ body {
   color: var(--secondary-text-color);
 }
 .team-list-item {
-  background-color: #ffffff;
+  background-color: var(--team-list-background-color);
 }
 .team-name {
-  font-family: var(--primary-font-family);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -160,57 +161,51 @@ body {
   color: var(--secondary-text-color);
 }
 .team-description {
-  font-family: var(--primary-font-family);
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
-
-  color: var(--primary-text-color);
 }
 /* ----- END OUR TEAM ----- */
 
 /* ----- START FOOTER ----- */
 .footer {
-  background-color: #2f303a;
+  background-color: var(--primary-background-color);
 }
 
 .logo-studio-footer {
-  color: #ffffff;
+  color: var(--secondary-text-footer-color);
 }
 .footer-contact-maps {
-  font-family: var(--primary-font-family);
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   font-style: normal;
 
-  color: #ffffff;
+  color: var(--secondary-text-footer-color);
 }
 .footer-contact-mail {
-  font-family: var(--primary-font-family);
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
 
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--primary-text-footer-color);
 }
 .footer-contact-tel {
-  font-family: var(--primary-font-family);
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
 
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--primary-text-footer-color);
 }
 /* ----- END FOOTER ----- */
 
 /* ====== !!START PORTFOLIO!! ====== */
 
 .portfolio-btn {
-  font-family: var(--primary-font-family);
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -218,16 +213,15 @@ body {
   letter-spacing: 0.03em;
   cursor: pointer;
 
-  background-color: #f5f4fa;
-  color: var(--secondary-text-color);
+  background-color: var(--primary-background-color)
+  color: var(--primary-text-btn-color);
 }
 .portfolio-btn:hover,
 .portfolio-btn:focus {
-  color: #ffffff;
+  color: var(--secondary-text-btn-color)
   background-color: var(--accent-color);
 }
 .portfolio-title {
-  font-family: var(--primary-font-family);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -236,10 +230,7 @@ body {
   color: var(--secondary-text-color);
 }
 .portfolio-description {
-  font-family: var(--primary-font-family);
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
-
-  color: var(--primary-text-color);
 }
